@@ -3,6 +3,7 @@ import numpy as np
 import time
 
 from envs.liquid_airan_env import LiquidAIRANEnv
+from data.cifar_10_provider import CIFAR10NonIIDProvider
 from models.usfl_networks import ResNet18_USFL
 from models.mat_agent import MATAgent
 from utils.logger import SimulationLogger
@@ -32,7 +33,7 @@ class RandomAgent(BaseAgent):
 def simulate_epoch(env, agent, resnet, epoch):
     """单轮仿真执行流"""
     # 1. 环境时序推进，获取本轮潮汐状态
-    client_states, available_migs, current_bandwidth = env.step()
+    client_states, available_migs, current_bandwidth, active_vehicle_ids = env.step()
     N = client_states.shape[0]
 
     print(f"\n[Epoch {epoch}] 当前车辆数: {N}, 可用 MIGs: {available_migs}, 当前带宽: {current_bandwidth:.2f} Mbps")
@@ -122,16 +123,26 @@ def main():
     print("🚀 开始启动 6G AI-RAN SFL 150 轮潮汐仿真...")
     
     # 1. 初始化模块
-    env = LiquidAIRANEnv()
-    resnet = ResNet18_USFL(num_classes=100)
+    data_provider = CIFAR10NonIIDProvider(
+        num_clients=25,
+        alpha=0.7,
+        data_dir="./data",
+    )
+
+    env = LiquidAIRANEnv(
+        data_provider=data_provider,
+        max_vehicles=25,
+    )
+    resnet = ResNet18_USFL(num_classes=10)
     logger = SimulationLogger(log_dir="logs")
 
     # 获取 GPU 可用状态
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")
     resnet.to(device)
+    resnet.eval()
     
-    # 状态维度: h_n (1), f_n (1), v_n (100) = 102
-    state_dim = 102 
+    # 状态维度: h_n (1), f_n (1), v_n (10) = 12
+    state_dim = 12 
     mat_agent = MATAgent(state_dim=state_dim, hidden_dim=128, num_migs=env.current_migs, device=device)
     random_agent = RandomAgent()
     cpsl_agent = CPSLAgent()
@@ -139,10 +150,6 @@ def main():
     pcsfl_agent = PCSFLAgent()
     
     agents = {
-        "Proposed_MAT-RL": mat_agent,
-        "Baseline_Random": random_agent,
-        "Baseline_CPSL": cpsl_agent,
-        "Baseline_ClusterSFL": clustersfl_agent,
         "Baseline_PCSFL": pcsfl_agent,
     }
     
@@ -172,7 +179,7 @@ def main():
             print(f"[{epoch}/150] {N}辆车, {migs}个MIG. MAT总时延: {total_d:.2f}s")
             
     # 3. 导出实验结果
-    print("\n✅ 150 轮仿真完成！正在导出结果...")
+    print("\n✅ {epoch} 轮仿真完成！正在导出结果...")
     logger.export_to_csv()
     logger.export_to_json()
     
