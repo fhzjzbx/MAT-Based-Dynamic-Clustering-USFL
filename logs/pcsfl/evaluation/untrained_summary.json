@@ -1,0 +1,70 @@
+{
+  "algorithm": "PCSFL-Untrained",
+  "checkpoint": null,
+  "exploration_disabled": true,
+  "eval_seed": 2026,
+  "state_dim": 15,
+  "capacity_slack": 0,
+  "headline_metric_note": "mean_total_delay_ms is legacy-comparable uplink+logical-compute; mean_full_total_delay_ms adds U-shaped downlink and is the final PCSFL objective.",
+  "all_epochs": {
+    "mean_total_delay_ms": 89.00166300248442,
+    "mean_full_total_delay_ms": 101.08108053825582,
+    "mean_tx_delay_ms": 15.734996335817753,
+    "mean_uplink_delay_ms": 15.17679306784384,
+    "mean_downlink_delay_ms": 13.337620803745295,
+    "mean_comp_delay_ms": 72.56666666666666,
+    "mean_conflict_rate": 0.0,
+    "mean_load_imbalance": 0.05811976837518633,
+    "mean_l1": 1.5197532888221743,
+    "mean_l2": 3.150313045313819,
+    "mean_upload_bytes": 12437.768915741523,
+    "mean_downlink_bytes": 8821.427168777556
+  },
+  "phases": [
+    {
+      "epochs": "1-50",
+      "mean_total_delay_ms": 80.86010214303131,
+      "mean_full_total_delay_ms": 84.20587194495552,
+      "mean_tx_delay_ms": 5.060102143031311,
+      "mean_uplink_delay_ms": 5.3428113562817225,
+      "mean_downlink_delay_ms": 4.163060588673818,
+      "mean_comp_delay_ms": 74.7,
+      "mean_conflict_rate": 0.0,
+      "mean_load_imbalance": 0.0686868686868687,
+      "mean_l1": 1.6054545454545457,
+      "mean_l2": 3.565050505050505,
+      "mean_upload_bytes": 12048.032323232323,
+      "mean_downlink_bytes": 7986.3725252525255
+    },
+    {
+      "epochs": "51-100",
+      "mean_total_delay_ms": 85.2304903773841,
+      "mean_full_total_delay_ms": 95.54531920099845,
+      "mean_tx_delay_ms": 16.330490377384088,
+      "mean_uplink_delay_ms": 15.596201554367928,
+      "mean_downlink_delay_ms": 11.24911764663053,
+      "mean_comp_delay_ms": 68.7,
+      "mean_conflict_rate": 0.0,
+      "mean_load_imbalance": 0.056581527347781206,
+      "mean_l1": 1.7109770381836946,
+      "mean_l2": 2.983666408668731,
+      "mean_upload_bytes": 12840.327353285174,
+      "mean_downlink_bytes": 8615.651203302374
+    },
+    {
+      "epochs": "101-150",
+      "mean_total_delay_ms": 100.91439648703786,
+      "mean_full_total_delay_ms": 123.49205046881342,
+      "mean_tx_delay_ms": 25.814396487037865,
+      "mean_uplink_delay_ms": 24.591366292881858,
+      "mean_downlink_delay_ms": 24.600684175931537,
+      "mean_comp_delay_ms": 74.3,
+      "mean_conflict_rate": 0.0,
+      "mean_load_imbalance": 0.049090909090909095,
+      "mean_l1": 1.2428282828282828,
+      "mean_l2": 2.9022222222222225,
+      "mean_upload_bytes": 12424.947070707074,
+      "mean_downlink_bytes": 9862.257777777779
+    }
+  ]
+}

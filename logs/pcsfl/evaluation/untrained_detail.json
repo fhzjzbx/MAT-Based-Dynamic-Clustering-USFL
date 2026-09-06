@@ -1,0 +1,5702 @@
+[
+  {
+    "epoch": 1,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.525124799095,
+    "full_total_delay_ms": 84.05024959818999,
+    "tx_delay_ms": 4.525124799094984,
+    "uplink_delay_ms": 4.525124799094984,
+    "downlink_delay_ms": 4.525124799094984,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.0,
+    "mean_l2": 3.5,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -0.8405024959818999
+  },
+  {
+    "epoch": 2,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.24540593132006,
+    "full_total_delay_ms": 79.05675741415008,
+    "tx_delay_ms": 3.245405931320057,
+    "uplink_delay_ms": 3.245405931320057,
+    "downlink_delay_ms": 0.8113514828300142,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7905675741415008
+  },
+  {
+    "epoch": 3,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 73.91676959506914,
+    "full_total_delay_ms": 76.02540415462364,
+    "tx_delay_ms": 3.916769595069136,
+    "uplink_delay_ms": 2.582316066267266,
+    "downlink_delay_ms": 3.443088088356354,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.7602540415462363
+  },
+  {
+    "epoch": 4,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 86.77630838246458,
+    "full_total_delay_ms": 95.8113862257507,
+    "tx_delay_ms": 6.776308382464582,
+    "uplink_delay_ms": 6.776308382464582,
+    "downlink_delay_ms": 9.035077843286109,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.3636363636363635,
+    "mean_l2": 2.8181818181818183,
+    "mean_upload_bytes": 10426.181818181818,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -0.9581138622575069
+  },
+  {
+    "epoch": 5,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.4356464467589,
+    "full_total_delay_ms": 78.0445580584486,
+    "tx_delay_ms": 2.4356464467588737,
+    "uplink_delay_ms": 2.4356464467588737,
+    "downlink_delay_ms": 0.6089116116897184,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.780445580584486
+  },
+  {
+    "epoch": 6,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.03020908198847,
+    "full_total_delay_ms": 77.53776135248559,
+    "tx_delay_ms": 2.0302090819884637,
+    "uplink_delay_ms": 2.0302090819884637,
+    "downlink_delay_ms": 0.5075522704971159,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7753776135248559
+  },
+  {
+    "epoch": 7,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 87.7259247398837,
+    "full_total_delay_ms": 89.84691219653098,
+    "tx_delay_ms": 12.72592473988369,
+    "uplink_delay_ms": 12.72592473988369,
+    "downlink_delay_ms": 2.1209874566472817,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 5.5,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.8984691219653097
+  },
+  {
+    "epoch": 8,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 85.5581251940373,
+    "full_total_delay_ms": 91.11625038807459,
+    "tx_delay_ms": 5.558125194037296,
+    "uplink_delay_ms": 5.558125194037296,
+    "downlink_delay_ms": 5.558125194037296,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.4545454545454546,
+    "mean_l2": 2.909090909090909,
+    "mean_upload_bytes": 16384.0,
+    "mean_downlink_bytes": 10798.545454545454,
+    "reward": -0.9111625038807459
+  },
+  {
+    "epoch": 9,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.26212309163124,
+    "full_total_delay_ms": 77.82765386453903,
+    "tx_delay_ms": 2.2621230916312243,
+    "uplink_delay_ms": 2.2621230916312243,
+    "downlink_delay_ms": 0.5655307729078061,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7782765386453903
+  },
+  {
+    "epoch": 10,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.50257509912693,
+    "full_total_delay_ms": 81.08633761564809,
+    "tx_delay_ms": 9.502575099126929,
+    "uplink_delay_ms": 9.502575099126929,
+    "downlink_delay_ms": 1.5837625165211549,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 5.444444444444445,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.810863376156481
+  },
+  {
+    "epoch": 11,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 73.97271958291346,
+    "full_total_delay_ms": 74.96589947864182,
+    "tx_delay_ms": 3.9727195829134567,
+    "uplink_delay_ms": 3.9727195829134567,
+    "downlink_delay_ms": 0.9931798957283642,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 5.0,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 3072.0,
+    "reward": -0.7496589947864182
+  },
+  {
+    "epoch": 12,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 86.3167063557613,
+    "full_total_delay_ms": 92.63341271152261,
+    "tx_delay_ms": 6.316706355761302,
+    "uplink_delay_ms": 6.316706355761302,
+    "downlink_delay_ms": 6.316706355761302,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.9090909090909092,
+    "mean_l2": 3.3636363636363638,
+    "mean_upload_bytes": 12660.363636363636,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -0.926334127115226
+  },
+  {
+    "epoch": 13,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.80605682708462,
+    "full_total_delay_ms": 84.61211365416924,
+    "tx_delay_ms": 4.806056827084616,
+    "uplink_delay_ms": 4.806056827084616,
+    "downlink_delay_ms": 4.806056827084616,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.0,
+    "mean_l2": 3.5,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -0.8461211365416923
+  },
+  {
+    "epoch": 14,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 76.98107137435478,
+    "full_total_delay_ms": 78.20245576016083,
+    "tx_delay_ms": 1.9810713743547725,
+    "uplink_delay_ms": 3.5153381829260635,
+    "downlink_delay_ms": 4.68711757723475,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7820245576016083
+  },
+  {
+    "epoch": 15,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 84.30946114205973,
+    "full_total_delay_ms": 88.61892228411945,
+    "tx_delay_ms": 4.309461142059725,
+    "uplink_delay_ms": 4.309461142059725,
+    "downlink_delay_ms": 4.309461142059725,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.9090909090909092,
+    "mean_l2": 3.3636363636363638,
+    "mean_upload_bytes": 12660.363636363636,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -0.8861892228411945
+  },
+  {
+    "epoch": 16,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.72870585130865,
+    "full_total_delay_ms": 82.14333576850473,
+    "tx_delay_ms": 4.728705851308639,
+    "uplink_delay_ms": 3.0614296150734517,
+    "downlink_delay_ms": 4.0819061534312695,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.8214333576850472
+  },
+  {
+    "epoch": 17,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 88.8572180155732,
+    "full_total_delay_ms": 97.71443603114639,
+    "tx_delay_ms": 8.85721801557319,
+    "uplink_delay_ms": 8.85721801557319,
+    "downlink_delay_ms": 8.85721801557319,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.9090909090909092,
+    "mean_l2": 3.3636363636363638,
+    "mean_upload_bytes": 12660.363636363636,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -0.9771443603114639
+  },
+  {
+    "epoch": 18,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.86516504014716,
+    "full_total_delay_ms": 81.08145630018396,
+    "tx_delay_ms": 4.86516504014715,
+    "uplink_delay_ms": 4.86516504014715,
+    "downlink_delay_ms": 1.2162912600367874,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.1111111111111112,
+    "mean_l2": 2.6666666666666665,
+    "mean_upload_bytes": 14563.555555555555,
+    "mean_downlink_bytes": 9557.333333333334,
+    "reward": -0.8108145630018395
+  },
+  {
+    "epoch": 19,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 84.56708956625927,
+    "full_total_delay_ms": 86.95886195782408,
+    "tx_delay_ms": 9.56708956625926,
+    "uplink_delay_ms": 9.56708956625926,
+    "downlink_delay_ms": 2.391772391564815,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.8695886195782407
+  },
+  {
+    "epoch": 20,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.02671285441933,
+    "full_total_delay_ms": 82.13349771023037,
+    "tx_delay_ms": 2.0267128544193183,
+    "uplink_delay_ms": 5.200070447241586,
+    "downlink_delay_ms": 6.933427262988781,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.8213349771023037
+  },
+  {
+    "epoch": 21,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.8278353069935,
+    "full_total_delay_ms": 79.4658078581591,
+    "tx_delay_ms": 3.827835306993506,
+    "uplink_delay_ms": 3.827835306993506,
+    "downlink_delay_ms": 0.6379725511655843,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 5.5,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.794658078581591
+  },
+  {
+    "epoch": 22,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.42922284677006,
+    "full_total_delay_ms": 79.69997406112847,
+    "tx_delay_ms": 2.429222846770046,
+    "uplink_delay_ms": 4.157131740483632,
+    "downlink_delay_ms": 5.542842320644843,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7969997406112846
+  },
+  {
+    "epoch": 23,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 75.6435065341771,
+    "full_total_delay_ms": 83.16818191307989,
+    "tx_delay_ms": 5.643506534177099,
+    "uplink_delay_ms": 5.643506534177099,
+    "downlink_delay_ms": 7.524675378902799,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.831681819130799
+  },
+  {
+    "epoch": 24,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.58740978357766,
+    "full_total_delay_ms": 86.5584070641215,
+    "tx_delay_ms": 2.58740978357766,
+    "uplink_delay_ms": 5.7792035320607456,
+    "downlink_delay_ms": 5.7792035320607456,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.090909090909091,
+    "mean_l2": 3.6363636363636362,
+    "mean_upload_bytes": 11915.636363636364,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -0.8655840706412149
+  },
+  {
+    "epoch": 25,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 74.18922905999702,
+    "full_total_delay_ms": 75.77586457094239,
+    "tx_delay_ms": 4.189229059997016,
+    "uplink_delay_ms": 2.4753705304038793,
+    "downlink_delay_ms": 3.3004940405385064,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.7577586457094239
+  },
+  {
+    "epoch": 26,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 80.49491624567753,
+    "full_total_delay_ms": 81.86864530709691,
+    "tx_delay_ms": 5.494916245677517,
+    "uplink_delay_ms": 5.494916245677517,
+    "downlink_delay_ms": 1.3737290614193793,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.1111111111111112,
+    "mean_l2": 2.6666666666666665,
+    "mean_upload_bytes": 14563.555555555555,
+    "mean_downlink_bytes": 9557.333333333334,
+    "reward": -0.818686453070969
+  },
+  {
+    "epoch": 27,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.95080381338046,
+    "full_total_delay_ms": 79.93850476672557,
+    "tx_delay_ms": 3.9508038133804484,
+    "uplink_delay_ms": 3.9508038133804484,
+    "downlink_delay_ms": 0.9877009533451121,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.5555555555555556,
+    "mean_l2": 3.111111111111111,
+    "mean_upload_bytes": 16384.0,
+    "mean_downlink_bytes": 9557.333333333334,
+    "reward": -0.7993850476672556
+  },
+  {
+    "epoch": 28,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 92.0750325239757,
+    "full_total_delay_ms": 104.15006504795139,
+    "tx_delay_ms": 12.0750325239757,
+    "uplink_delay_ms": 12.0750325239757,
+    "downlink_delay_ms": 12.0750325239757,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.9090909090909092,
+    "mean_l2": 3.3636363636363638,
+    "mean_upload_bytes": 12660.363636363636,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -1.041500650479514
+  },
+  {
+    "epoch": 29,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 73.61381550033751,
+    "full_total_delay_ms": 74.51726937542189,
+    "tx_delay_ms": 3.6138155003375023,
+    "uplink_delay_ms": 3.6138155003375023,
+    "downlink_delay_ms": 0.9034538750843756,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 5.0,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 3072.0,
+    "reward": -0.7451726937542188
+  },
+  {
+    "epoch": 30,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 84.04414140814707,
+    "full_total_delay_ms": 85.47601568631433,
+    "tx_delay_ms": 4.044141408147067,
+    "uplink_delay_ms": 4.489721008420423,
+    "downlink_delay_ms": 5.986294677893897,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 3.1818181818181817,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -0.8547601568631432
+  },
+  {
+    "epoch": 31,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 83.13694832307657,
+    "full_total_delay_ms": 91.27389664615312,
+    "tx_delay_ms": 8.136948323076561,
+    "uplink_delay_ms": 8.136948323076561,
+    "downlink_delay_ms": 8.136948323076561,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.090909090909091,
+    "mean_l2": 3.6363636363636362,
+    "mean_upload_bytes": 11915.636363636364,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -0.9127389664615312
+  },
+  {
+    "epoch": 32,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 84.69461461818122,
+    "full_total_delay_ms": 89.38922923636243,
+    "tx_delay_ms": 4.694614618181209,
+    "uplink_delay_ms": 4.694614618181209,
+    "downlink_delay_ms": 4.694614618181209,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.9090909090909092,
+    "mean_l2": 3.3636363636363638,
+    "mean_upload_bytes": 12660.363636363636,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -0.8938922923636242
+  },
+  {
+    "epoch": 33,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.38572806411477,
+    "full_total_delay_ms": 83.47496758481982,
+    "tx_delay_ms": 2.385728064114779,
+    "uplink_delay_ms": 3.6321289649227753,
+    "downlink_delay_ms": 4.842838619897034,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 3.1818181818181817,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -0.8347496758481983
+  },
+  {
+    "epoch": 34,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.1390957338258,
+    "full_total_delay_ms": 78.6622783561301,
+    "tx_delay_ms": 3.1390957338257874,
+    "uplink_delay_ms": 3.1390957338257874,
+    "downlink_delay_ms": 0.523182622304298,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 5.5,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.786622783561301
+  },
+  {
+    "epoch": 35,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.42064967458693,
+    "full_total_delay_ms": 79.2413529856201,
+    "tx_delay_ms": 2.4206496745869055,
+    "uplink_delay_ms": 3.960579850980042,
+    "downlink_delay_ms": 5.280773134640056,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.792413529856201
+  },
+  {
+    "epoch": 36,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 90.65051775274036,
+    "full_total_delay_ms": 92.42560404486375,
+    "tx_delay_ms": 10.650517752740354,
+    "uplink_delay_ms": 10.650517752740354,
+    "downlink_delay_ms": 1.7750862921233925,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.3636363636363635,
+    "mean_l2": 5.545454545454546,
+    "mean_upload_bytes": 10426.181818181818,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.9242560404486374
+  },
+  {
+    "epoch": 37,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.92720481532012,
+    "full_total_delay_ms": 78.65900601915014,
+    "tx_delay_ms": 2.9272048153201076,
+    "uplink_delay_ms": 2.9272048153201076,
+    "downlink_delay_ms": 0.7318012038300269,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.111111111111111,
+    "mean_l2": 3.6666666666666665,
+    "mean_upload_bytes": 11832.888888888889,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7865900601915014
+  },
+  {
+    "epoch": 38,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.02423413568857,
+    "full_total_delay_ms": 77.91821262237622,
+    "tx_delay_ms": 2.024234135688557,
+    "uplink_delay_ms": 3.393519695304093,
+    "downlink_delay_ms": 4.524692927072123,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7791821262237622
+  },
+  {
+    "epoch": 39,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.25402508934822,
+    "full_total_delay_ms": 77.81753136168525,
+    "tx_delay_ms": 2.2540250893482088,
+    "uplink_delay_ms": 2.2540250893482088,
+    "downlink_delay_ms": 0.5635062723370522,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.7781753136168525
+  },
+  {
+    "epoch": 40,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.74716676713483,
+    "full_total_delay_ms": 84.71909488953519,
+    "tx_delay_ms": 2.747166767134827,
+    "uplink_delay_ms": 4.859547444767585,
+    "downlink_delay_ms": 4.859547444767585,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.090909090909091,
+    "mean_l2": 3.6363636363636362,
+    "mean_upload_bytes": 11915.636363636364,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -0.8471909488953518
+  },
+  {
+    "epoch": 41,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.11805455686,
+    "full_total_delay_ms": 87.23610911371999,
+    "tx_delay_ms": 6.118054556859981,
+    "uplink_delay_ms": 6.118054556859981,
+    "downlink_delay_ms": 6.118054556859981,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.0,
+    "mean_l2": 3.5,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -0.8723610911371998
+  },
+  {
+    "epoch": 42,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.84389242773318,
+    "full_total_delay_ms": 84.72128406814608,
+    "tx_delay_ms": 2.8438924277331874,
+    "uplink_delay_ms": 4.860642034073037,
+    "downlink_delay_ms": 4.860642034073037,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.090909090909091,
+    "mean_l2": 3.6363636363636362,
+    "mean_upload_bytes": 11915.636363636364,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -0.8472128406814607
+  },
+  {
+    "epoch": 43,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 85.07041629679904,
+    "full_total_delay_ms": 90.14083259359808,
+    "tx_delay_ms": 5.070416296799044,
+    "uplink_delay_ms": 5.070416296799044,
+    "downlink_delay_ms": 5.070416296799044,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.9090909090909092,
+    "mean_l2": 3.3636363636363638,
+    "mean_upload_bytes": 12660.363636363636,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -0.9014083259359807
+  },
+  {
+    "epoch": 44,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.2547502784092,
+    "full_total_delay_ms": 86.85275689446314,
+    "tx_delay_ms": 2.2547502784092006,
+    "uplink_delay_ms": 5.926378447231568,
+    "downlink_delay_ms": 5.926378447231568,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.090909090909091,
+    "mean_l2": 3.6363636363636362,
+    "mean_upload_bytes": 11915.636363636364,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -0.8685275689446315
+  },
+  {
+    "epoch": 45,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 75.45865687095886,
+    "full_total_delay_ms": 77.16910788517683,
+    "tx_delay_ms": 5.458656870958853,
+    "uplink_delay_ms": 3.072474807932923,
+    "downlink_delay_ms": 4.096633077243896,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.7716910788517681
+  },
+  {
+    "epoch": 46,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 83.2197619239049,
+    "full_total_delay_ms": 85.27470240488113,
+    "tx_delay_ms": 8.21976192390489,
+    "uplink_delay_ms": 8.21976192390489,
+    "downlink_delay_ms": 2.0549404809762226,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.1111111111111112,
+    "mean_l2": 4.888888888888889,
+    "mean_upload_bytes": 14563.555555555555,
+    "mean_downlink_bytes": 3185.777777777778,
+    "reward": -0.8527470240488112
+  },
+  {
+    "epoch": 47,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.32012616985153,
+    "full_total_delay_ms": 78.87348053149346,
+    "tx_delay_ms": 3.320126169851533,
+    "uplink_delay_ms": 3.320126169851533,
+    "downlink_delay_ms": 0.5533543616419222,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 5.5,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.7887348053149346
+  },
+  {
+    "epoch": 48,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 80.7824477166657,
+    "full_total_delay_ms": 86.5648954333314,
+    "tx_delay_ms": 5.7824477166657,
+    "uplink_delay_ms": 5.7824477166657,
+    "downlink_delay_ms": 5.7824477166657,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 2.0,
+    "mean_l2": 3.5,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -0.865648954333314
+  },
+  {
+    "epoch": 49,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 73.17222054179072,
+    "full_total_delay_ms": 75.55372959981506,
+    "tx_delay_ms": 3.1722205417907077,
+    "uplink_delay_ms": 2.3801698284921633,
+    "downlink_delay_ms": 3.1735597713228847,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.7555372959981506
+  },
+  {
+    "epoch": 50,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 97.11956340028495,
+    "full_total_delay_ms": 114.23912680056989,
+    "tx_delay_ms": 17.119563400284946,
+    "uplink_delay_ms": 17.119563400284946,
+    "downlink_delay_ms": 17.119563400284946,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.9090909090909092,
+    "mean_l2": 3.3636363636363638,
+    "mean_upload_bytes": 12660.363636363636,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -1.142391268005699
+  },
+  {
+    "epoch": 51,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 85.22138923582209,
+    "full_total_delay_ms": 89.02673654477762,
+    "tx_delay_ms": 15.221389235822091,
+    "uplink_delay_ms": 15.221389235822091,
+    "downlink_delay_ms": 3.8053473089555228,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.8902673654477762
+  },
+  {
+    "epoch": 52,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 72.27625341378933,
+    "full_total_delay_ms": 79.55250682757867,
+    "tx_delay_ms": 7.2762534137893375,
+    "uplink_delay_ms": 7.2762534137893375,
+    "downlink_delay_ms": 7.2762534137893375,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.7955250682757866
+  },
+  {
+    "epoch": 53,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 80.22015155547113,
+    "full_total_delay_ms": 88.91147720725023,
+    "tx_delay_ms": 10.22015155547113,
+    "uplink_delay_ms": 9.455738603625107,
+    "downlink_delay_ms": 9.455738603625107,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.5263157894736843,
+    "mean_l2": 2.736842105263158,
+    "mean_upload_bytes": 14228.21052631579,
+    "mean_downlink_bytes": 9269.894736842105,
+    "reward": -0.8891147720725023
+  },
+  {
+    "epoch": 54,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.41519893756865,
+    "full_total_delay_ms": 88.83039787513728,
+    "tx_delay_ms": 9.41519893756863,
+    "uplink_delay_ms": 9.41519893756863,
+    "downlink_delay_ms": 9.41519893756863,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.8883039787513727
+  },
+  {
+    "epoch": 55,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.3049642986979,
+    "full_total_delay_ms": 92.60992859739578,
+    "tx_delay_ms": 11.30496429869788,
+    "uplink_delay_ms": 11.30496429869788,
+    "downlink_delay_ms": 11.30496429869788,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.5263157894736843,
+    "mean_l2": 2.736842105263158,
+    "mean_upload_bytes": 14228.21052631579,
+    "mean_downlink_bytes": 9269.894736842105,
+    "reward": -0.9260992859739577
+  },
+  {
+    "epoch": 56,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.19259836311795,
+    "full_total_delay_ms": 96.11606284727523,
+    "tx_delay_ms": 11.192598363117945,
+    "uplink_delay_ms": 11.192598363117945,
+    "downlink_delay_ms": 14.923464484157261,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.736842105263158,
+    "mean_l2": 2.9473684210526314,
+    "mean_upload_bytes": 12503.578947368422,
+    "mean_downlink_bytes": 8838.736842105263,
+    "reward": -0.9611606284727522
+  },
+  {
+    "epoch": 57,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 110.83984297060398,
+    "full_total_delay_ms": 121.04980371325496,
+    "tx_delay_ms": 40.839842970603975,
+    "uplink_delay_ms": 40.839842970603975,
+    "downlink_delay_ms": 10.209960742650994,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.5263157894736843,
+    "mean_l2": 3.1578947368421053,
+    "mean_upload_bytes": 14228.21052631579,
+    "mean_downlink_bytes": 8838.736842105263,
+    "reward": -1.2104980371325496
+  },
+  {
+    "epoch": 58,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.55953803399885,
+    "full_total_delay_ms": 79.44942254249855,
+    "tx_delay_ms": 7.559538033998831,
+    "uplink_delay_ms": 7.559538033998831,
+    "downlink_delay_ms": 1.8898845084997078,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.7944942254249855
+  },
+  {
+    "epoch": 59,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 87.40339876029255,
+    "full_total_delay_ms": 99.16843418235335,
+    "tx_delay_ms": 17.403398760292532,
+    "uplink_delay_ms": 14.584217091176669,
+    "downlink_delay_ms": 14.584217091176669,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.9916843418235335
+  },
+  {
+    "epoch": 60,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 80.57720806801409,
+    "full_total_delay_ms": 88.36170055366017,
+    "tx_delay_ms": 10.577208068014087,
+    "uplink_delay_ms": 7.869300237282928,
+    "downlink_delay_ms": 10.492400316377239,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.5263157894736843,
+    "mean_l2": 3.789473684210526,
+    "mean_upload_bytes": 11641.263157894737,
+    "mean_downlink_bytes": 5820.631578947368,
+    "reward": -0.8836170055366017
+  },
+  {
+    "epoch": 61,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 80.22190627514698,
+    "full_total_delay_ms": 90.44381255029396,
+    "tx_delay_ms": 10.221906275146978,
+    "uplink_delay_ms": 10.221906275146978,
+    "downlink_delay_ms": 10.221906275146978,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.9044381255029396
+  },
+  {
+    "epoch": 62,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.10445502775349,
+    "full_total_delay_ms": 88.20891005550696,
+    "tx_delay_ms": 9.104455027753474,
+    "uplink_delay_ms": 9.104455027753474,
+    "downlink_delay_ms": 9.104455027753474,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.8820891005550696
+  },
+  {
+    "epoch": 63,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.02456943514795,
+    "full_total_delay_ms": 80.23975326185936,
+    "tx_delay_ms": 7.024569435147934,
+    "uplink_delay_ms": 7.619876630929681,
+    "downlink_delay_ms": 7.619876630929681,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.8023975326185936
+  },
+  {
+    "epoch": 64,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 80.8671183028827,
+    "full_total_delay_ms": 91.57783869629506,
+    "tx_delay_ms": 10.867118302882695,
+    "uplink_delay_ms": 9.247645155555022,
+    "downlink_delay_ms": 12.330193540740028,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.3157894736842106,
+    "mean_l2": 3.5789473684210527,
+    "mean_upload_bytes": 13365.894736842105,
+    "mean_downlink_bytes": 6251.789473684211,
+    "reward": -0.9157783869629506
+  },
+  {
+    "epoch": 65,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 73.17393656626082,
+    "full_total_delay_ms": 81.34787313252164,
+    "tx_delay_ms": 8.173936566260826,
+    "uplink_delay_ms": 8.173936566260826,
+    "downlink_delay_ms": 8.173936566260826,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.8134787313252164
+  },
+  {
+    "epoch": 66,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 72.95339273453119,
+    "full_total_delay_ms": 83.55791638057276,
+    "tx_delay_ms": 7.953392734531183,
+    "uplink_delay_ms": 7.953392734531183,
+    "downlink_delay_ms": 10.604523646041578,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.8355791638057276
+  },
+  {
+    "epoch": 67,
+    "n_clients": 18,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.00778112579272,
+    "full_total_delay_ms": 95.68482262684968,
+    "tx_delay_ms": 11.00778112579272,
+    "uplink_delay_ms": 11.00778112579272,
+    "downlink_delay_ms": 14.677041501056959,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08333333333333331,
+    "cluster_loads": [
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 2.8333333333333335,
+    "mean_upload_bytes": 12743.111111111111,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -0.9568482262684969
+  },
+  {
+    "epoch": 68,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.53278631853564,
+    "full_total_delay_ms": 79.41598289816956,
+    "tx_delay_ms": 7.532786318535636,
+    "uplink_delay_ms": 7.532786318535636,
+    "downlink_delay_ms": 1.883196579633909,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.7941598289816956
+  },
+  {
+    "epoch": 69,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 76.85475145002557,
+    "full_total_delay_ms": 88.70950290005113,
+    "tx_delay_ms": 11.854751450025569,
+    "uplink_delay_ms": 11.854751450025569,
+    "downlink_delay_ms": 11.854751450025569,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.8870950290005114
+  },
+  {
+    "epoch": 70,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 74.08506645005345,
+    "full_total_delay_ms": 83.17013290010689,
+    "tx_delay_ms": 9.085066450053443,
+    "uplink_delay_ms": 9.085066450053443,
+    "downlink_delay_ms": 9.085066450053443,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.6,
+    "mean_l2": 2.8,
+    "mean_upload_bytes": 13926.4,
+    "mean_downlink_bytes": 9011.2,
+    "reward": -0.8317013290010689
+  },
+  {
+    "epoch": 71,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.71720932567715,
+    "full_total_delay_ms": 87.54907050988314,
+    "tx_delay_ms": 11.717209325677144,
+    "uplink_delay_ms": 8.774535254941563,
+    "downlink_delay_ms": 8.774535254941563,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.8754907050988314
+  },
+  {
+    "epoch": 72,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 75.38132625356667,
+    "full_total_delay_ms": 85.76265250713332,
+    "tx_delay_ms": 10.381326253566662,
+    "uplink_delay_ms": 10.381326253566662,
+    "downlink_delay_ms": 10.381326253566662,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.8576265250713333
+  },
+  {
+    "epoch": 73,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 95.59719301145533,
+    "full_total_delay_ms": 101.99649126431916,
+    "tx_delay_ms": 25.597193011455325,
+    "uplink_delay_ms": 25.597193011455325,
+    "downlink_delay_ms": 6.399298252863831,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -1.0199649126431916
+  },
+  {
+    "epoch": 74,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 74.80239012739523,
+    "full_total_delay_ms": 87.87224363058887,
+    "tx_delay_ms": 9.802390127395233,
+    "uplink_delay_ms": 9.802390127395233,
+    "downlink_delay_ms": 13.069853503193642,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.8787224363058888
+  },
+  {
+    "epoch": 75,
+    "n_clients": 18,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 90.99932721792777,
+    "full_total_delay_ms": 111.99865443585554,
+    "tx_delay_ms": 20.999327217927764,
+    "uplink_delay_ms": 20.999327217927764,
+    "downlink_delay_ms": 20.999327217927764,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08333333333333331,
+    "cluster_loads": [
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 2.8333333333333335,
+    "mean_upload_bytes": 12743.111111111111,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.1199865443585555
+  },
+  {
+    "epoch": 76,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 86.1180419888027,
+    "full_total_delay_ms": 102.23608397760539,
+    "tx_delay_ms": 16.118041988802695,
+    "uplink_delay_ms": 16.118041988802695,
+    "downlink_delay_ms": 16.118041988802695,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -1.0223608397760537
+  },
+  {
+    "epoch": 77,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.16799256814794,
+    "full_total_delay_ms": 94.33598513629588,
+    "tx_delay_ms": 12.167992568147941,
+    "uplink_delay_ms": 12.167992568147941,
+    "downlink_delay_ms": 12.167992568147941,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.5263157894736843,
+    "mean_l2": 2.736842105263158,
+    "mean_upload_bytes": 14228.21052631579,
+    "mean_downlink_bytes": 9269.894736842105,
+    "reward": -0.9433598513629587
+  },
+  {
+    "epoch": 78,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 74.9168410889033,
+    "full_total_delay_ms": 77.49782201388116,
+    "tx_delay_ms": 9.916841088903292,
+    "uplink_delay_ms": 6.248911006940581,
+    "downlink_delay_ms": 6.248911006940581,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.7749782201388117
+  },
+  {
+    "epoch": 79,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.27526278970298,
+    "full_total_delay_ms": 80.34407848712873,
+    "tx_delay_ms": 8.275262789702975,
+    "uplink_delay_ms": 8.275262789702975,
+    "downlink_delay_ms": 2.0688156974257437,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.8034407848712872
+  },
+  {
+    "epoch": 80,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.28320805119688,
+    "full_total_delay_ms": 92.56641610239375,
+    "tx_delay_ms": 11.283208051196866,
+    "uplink_delay_ms": 11.283208051196866,
+    "downlink_delay_ms": 11.283208051196866,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.9256641610239374
+  },
+  {
+    "epoch": 81,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 74.86098508897847,
+    "full_total_delay_ms": 84.72197017795693,
+    "tx_delay_ms": 9.860985088978472,
+    "uplink_delay_ms": 9.860985088978472,
+    "downlink_delay_ms": 9.860985088978472,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.8472197017795693
+  },
+  {
+    "epoch": 82,
+    "n_clients": 18,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 102.64456541845438,
+    "full_total_delay_ms": 135.28913083690875,
+    "tx_delay_ms": 32.64456541845437,
+    "uplink_delay_ms": 32.64456541845437,
+    "downlink_delay_ms": 32.64456541845437,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08333333333333331,
+    "cluster_loads": [
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 2.6666666666666665,
+    "mean_upload_bytes": 14108.444444444445,
+    "mean_downlink_bytes": 9557.333333333334,
+    "reward": -1.3528913083690874
+  },
+  {
+    "epoch": 83,
+    "n_clients": 18,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 102.78227735943071,
+    "full_total_delay_ms": 135.56455471886142,
+    "tx_delay_ms": 32.7822773594307,
+    "uplink_delay_ms": 32.7822773594307,
+    "downlink_delay_ms": 32.7822773594307,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08333333333333331,
+    "cluster_loads": [
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 2.8333333333333335,
+    "mean_upload_bytes": 12743.111111111111,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.3556455471886142
+  },
+  {
+    "epoch": 84,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.64470787428054,
+    "full_total_delay_ms": 86.24612699393536,
+    "tx_delay_ms": 9.644707874280545,
+    "uplink_delay_ms": 8.123063496967674,
+    "downlink_delay_ms": 8.123063496967674,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.8624612699393536
+  },
+  {
+    "epoch": 85,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 72.24662482910317,
+    "full_total_delay_ms": 78.56498520194945,
+    "tx_delay_ms": 7.246624829103171,
+    "uplink_delay_ms": 6.7824926009747255,
+    "downlink_delay_ms": 6.7824926009747255,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -0.7856498520194946
+  },
+  {
+    "epoch": 86,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 80.17574098922057,
+    "full_total_delay_ms": 84.54467037120878,
+    "tx_delay_ms": 10.175740989220573,
+    "uplink_delay_ms": 7.27233518560439,
+    "downlink_delay_ms": 7.27233518560439,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.8454467037120877
+  },
+  {
+    "epoch": 87,
+    "n_clients": 15,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 256.4425536182178,
+    "full_total_delay_ms": 304.3031920227723,
+    "tx_delay_ms": 191.44255361821783,
+    "uplink_delay_ms": 191.44255361821783,
+    "downlink_delay_ms": 47.86063840455446,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 12288.0,
+    "mean_downlink_bytes": 8601.6,
+    "reward": -2.0
+  },
+  {
+    "epoch": 88,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.83143311206518,
+    "full_total_delay_ms": 82.53666450890972,
+    "tx_delay_ms": 8.831433112065177,
+    "uplink_delay_ms": 8.768332254454867,
+    "downlink_delay_ms": 8.768332254454867,
+    "comp_delay_ms": 65.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.8253666450890973
+  },
+  {
+    "epoch": 89,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 83.61281273217836,
+    "full_total_delay_ms": 97.2256254643567,
+    "tx_delay_ms": 13.61281273217835,
+    "uplink_delay_ms": 13.61281273217835,
+    "downlink_delay_ms": 13.61281273217835,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.972256254643567
+  },
+  {
+    "epoch": 90,
+    "n_clients": 18,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 83.00926554199728,
+    "full_total_delay_ms": 94.08177878045542,
+    "tx_delay_ms": 13.009265541997275,
+    "uplink_delay_ms": 12.040889390227717,
+    "downlink_delay_ms": 12.040889390227717,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08333333333333331,
+    "cluster_loads": [
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 2.8333333333333335,
+    "mean_upload_bytes": 12743.111111111111,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -0.9408177878045543
+  },
+  {
+    "epoch": 91,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 78.69950152355844,
+    "full_total_delay_ms": 84.03625219893232,
+    "tx_delay_ms": 8.699501523558427,
+    "uplink_delay_ms": 7.0181260994661585,
+    "downlink_delay_ms": 7.0181260994661585,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.8403625219893232
+  },
+  {
+    "epoch": 92,
+    "n_clients": 18,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.85547493277831,
+    "full_total_delay_ms": 89.22451044910181,
+    "tx_delay_ms": 12.855474932778305,
+    "uplink_delay_ms": 8.239075906757916,
+    "downlink_delay_ms": 10.985434542343889,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08333333333333331,
+    "cluster_loads": [
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 2.8333333333333335,
+    "mean_upload_bytes": 12743.111111111111,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -0.8922451044910181
+  },
+  {
+    "epoch": 93,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.64186559252512,
+    "full_total_delay_ms": 83.77835318911498,
+    "tx_delay_ms": 7.64186559252511,
+    "uplink_delay_ms": 5.905008509620706,
+    "downlink_delay_ms": 7.873344679494276,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.3157894736842106,
+    "mean_l2": 3.5789473684210527,
+    "mean_upload_bytes": 13365.894736842105,
+    "mean_downlink_bytes": 6251.789473684211,
+    "reward": -0.8377835318911498
+  },
+  {
+    "epoch": 94,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 84.73820699609587,
+    "full_total_delay_ms": 88.42275874511984,
+    "tx_delay_ms": 14.738206996095863,
+    "uplink_delay_ms": 14.738206996095863,
+    "downlink_delay_ms": 3.684551749023966,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.625,
+    "mean_l2": 2.875,
+    "mean_upload_bytes": 14080.0,
+    "mean_downlink_bytes": 8704.0,
+    "reward": -0.8842275874511982
+  },
+  {
+    "epoch": 95,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.69189156502925,
+    "full_total_delay_ms": 84.61486445628657,
+    "tx_delay_ms": 11.69189156502924,
+    "uplink_delay_ms": 11.69189156502924,
+    "downlink_delay_ms": 2.92297289125731,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.8461486445628655
+  },
+  {
+    "epoch": 96,
+    "n_clients": 19,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 82.83248734313618,
+    "full_total_delay_ms": 93.09283059679433,
+    "tx_delay_ms": 12.832487343136181,
+    "uplink_delay_ms": 9.896927398626138,
+    "downlink_delay_ms": 13.195903198168185,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.052631578947368376,
+    "cluster_loads": [
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.736842105263158,
+    "mean_l2": 2.9473684210526314,
+    "mean_upload_bytes": 12503.578947368422,
+    "mean_downlink_bytes": 8838.736842105263,
+    "reward": -0.9309283059679432
+  },
+  {
+    "epoch": 97,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 81.71520359536588,
+    "full_total_delay_ms": 93.31890867548265,
+    "tx_delay_ms": 11.715203595365882,
+    "uplink_delay_ms": 11.659454337741314,
+    "downlink_delay_ms": 11.659454337741314,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.9331890867548265
+  },
+  {
+    "epoch": 98,
+    "n_clients": 16,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 79.21140929171261,
+    "full_total_delay_ms": 81.51426161464076,
+    "tx_delay_ms": 9.211409291712606,
+    "uplink_delay_ms": 9.211409291712606,
+    "downlink_delay_ms": 2.3028523229281515,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.06250000000000001,
+    "cluster_loads": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.8125,
+    "mean_l2": 3.0625,
+    "mean_upload_bytes": 12544.0,
+    "mean_downlink_bytes": 8320.0,
+    "reward": -0.8151426161464076
+  },
+  {
+    "epoch": 99,
+    "n_clients": 18,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 89.91252884213364,
+    "full_total_delay_ms": 102.83224093532137,
+    "tx_delay_ms": 19.91252884213364,
+    "uplink_delay_ms": 14.070960400852007,
+    "downlink_delay_ms": 18.761280534469343,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08333333333333331,
+    "cluster_loads": [
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 2.6666666666666665,
+    "mean_upload_bytes": 14108.444444444445,
+    "mean_downlink_bytes": 9557.333333333334,
+    "reward": -1.0283224093532135
+  },
+  {
+    "epoch": 100,
+    "n_clients": 17,
+    "n_migs": 5,
+    "bandwidth_mhz": 100.0,
+    "total_delay_ms": 77.87988287665996,
+    "full_total_delay_ms": 85.75976575331993,
+    "tx_delay_ms": 7.879882876659961,
+    "uplink_delay_ms": 7.879882876659961,
+    "downlink_delay_ms": 7.879882876659961,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.08823529411764704,
+    "cluster_loads": [
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "mean_l1": 1.7647058823529411,
+    "mean_l2": 2.9411764705882355,
+    "mean_upload_bytes": 12769.882352941177,
+    "mean_downlink_bytes": 8794.35294117647,
+    "reward": -0.8575976575331992
+  },
+  {
+    "epoch": 101,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 99.51807293407747,
+    "full_total_delay_ms": 124.03614586815492,
+    "tx_delay_ms": 24.518072934077455,
+    "uplink_delay_ms": 24.518072934077455,
+    "downlink_delay_ms": 24.518072934077455,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 16384.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.2403614586815492
+  },
+  {
+    "epoch": 102,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 104.91482291501958,
+    "full_total_delay_ms": 118.39396899022415,
+    "tx_delay_ms": 29.914822915019567,
+    "uplink_delay_ms": 18.597415281524633,
+    "downlink_delay_ms": 24.796553708699513,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 3.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.1839396899022414
+  },
+  {
+    "epoch": 103,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 97.15625403305872,
+    "full_total_delay_ms": 116.77040685063368,
+    "tx_delay_ms": 17.156254033058723,
+    "uplink_delay_ms": 17.90160293598586,
+    "downlink_delay_ms": 23.868803914647813,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 3.1818181818181817,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -1.1677040685063367
+  },
+  {
+    "epoch": 104,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 89.35929463342298,
+    "full_total_delay_ms": 108.50502081132025,
+    "tx_delay_ms": 14.35929463342296,
+    "uplink_delay_ms": 14.35929463342296,
+    "downlink_delay_ms": 19.145726177897277,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.0850502081132025
+  },
+  {
+    "epoch": 105,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 104.86823371587353,
+    "full_total_delay_ms": 151.3592120037049,
+    "tx_delay_ms": 34.86823371587353,
+    "uplink_delay_ms": 34.86823371587353,
+    "downlink_delay_ms": 46.490978287831375,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 1.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.5135921200370488
+  },
+  {
+    "epoch": 106,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 124.63154585837147,
+    "full_total_delay_ms": 190.80694033620009,
+    "tx_delay_ms": 49.631545858371446,
+    "uplink_delay_ms": 49.631545858371446,
+    "downlink_delay_ms": 66.1753944778286,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 1.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.9080694033620007
+  },
+  {
+    "epoch": 107,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 94.76263124343029,
+    "full_total_delay_ms": 114.65536363907985,
+    "tx_delay_ms": 19.762631243430274,
+    "uplink_delay_ms": 16.99515584531993,
+    "downlink_delay_ms": 22.66020779375991,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 3.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.1465536363907984
+  },
+  {
+    "epoch": 108,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 90.29724715835638,
+    "full_total_delay_ms": 99.58827098976057,
+    "tx_delay_ms": 20.29724715835637,
+    "uplink_delay_ms": 12.68068756704024,
+    "downlink_delay_ms": 16.907583422720318,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.9958827098976056
+  },
+  {
+    "epoch": 109,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 95.00867580235055,
+    "full_total_delay_ms": 100.01084475293818,
+    "tx_delay_ms": 20.008675802350535,
+    "uplink_delay_ms": 20.008675802350535,
+    "downlink_delay_ms": 5.002168950587634,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 2.7777777777777777,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 6599.111111111111,
+    "reward": -1.0001084475293818
+  },
+  {
+    "epoch": 110,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 94.73102414694306,
+    "full_total_delay_ms": 99.66378018367881,
+    "tx_delay_ms": 19.731024146943046,
+    "uplink_delay_ms": 19.731024146943046,
+    "downlink_delay_ms": 4.9327560367357615,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 5.5,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.9966378018367881
+  },
+  {
+    "epoch": 111,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 90.25276637725271,
+    "full_total_delay_ms": 117.25645488025633,
+    "tx_delay_ms": 20.252766377252705,
+    "uplink_delay_ms": 20.252766377252705,
+    "downlink_delay_ms": 27.00368850300361,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 2.0,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 8192.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.1725645488025631
+  },
+  {
+    "epoch": 112,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 94.03736161413303,
+    "full_total_delay_ms": 113.07472322826607,
+    "tx_delay_ms": 19.037361614133022,
+    "uplink_delay_ms": 19.037361614133022,
+    "downlink_delay_ms": 19.037361614133022,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.1111111111111112,
+    "mean_l2": 1.5555555555555556,
+    "mean_upload_bytes": 14563.555555555555,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.1307472322826606
+  },
+  {
+    "epoch": 113,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 105.70959506079237,
+    "full_total_delay_ms": 131.4191901215847,
+    "tx_delay_ms": 25.709595060792353,
+    "uplink_delay_ms": 25.709595060792353,
+    "downlink_delay_ms": 25.709595060792353,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0909090909090908,
+    "mean_l2": 1.5454545454545454,
+    "mean_upload_bytes": 14522.181818181818,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.314191901215847
+  },
+  {
+    "epoch": 114,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 87.96246242812464,
+    "full_total_delay_ms": 111.9124123322908,
+    "tx_delay_ms": 17.962462428124624,
+    "uplink_delay_ms": 17.962462428124624,
+    "downlink_delay_ms": 23.949949904166164,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.119124123322908
+  },
+  {
+    "epoch": 115,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 107.97615539120639,
+    "full_total_delay_ms": 124.46423308680959,
+    "tx_delay_ms": 32.97615539120638,
+    "uplink_delay_ms": 32.97615539120638,
+    "downlink_delay_ms": 16.48807769560319,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "mean_l1": 2.5454545454545454,
+    "mean_l2": 4.090909090909091,
+    "mean_upload_bytes": 11915.636363636364,
+    "mean_downlink_bytes": 4840.727272727273,
+    "reward": -1.2446423308680958
+  },
+  {
+    "epoch": 116,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 83.74966612434156,
+    "full_total_delay_ms": 102.08255429013032,
+    "tx_delay_ms": 13.749666124341562,
+    "uplink_delay_ms": 13.749666124341562,
+    "downlink_delay_ms": 18.33288816578875,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.0208255429013031
+  },
+  {
+    "epoch": 117,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 95.06084149979746,
+    "full_total_delay_ms": 112.28015888950566,
+    "tx_delay_ms": 20.060841499797448,
+    "uplink_delay_ms": 15.977210952645274,
+    "downlink_delay_ms": 21.302947936860363,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.1228015888950564
+  },
+  {
+    "epoch": 118,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 92.43997215703081,
+    "full_total_delay_ms": 95.34663418320262,
+    "tx_delay_ms": 17.439972157030795,
+    "uplink_delay_ms": 17.439972157030795,
+    "downlink_delay_ms": 2.9066620261717997,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 5.454545454545454,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.9534663418320262
+  },
+  {
+    "epoch": 119,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 91.7357595762483,
+    "full_total_delay_ms": 94.66969947031038,
+    "tx_delay_ms": 11.73575957624829,
+    "uplink_delay_ms": 11.73575957624829,
+    "downlink_delay_ms": 2.9339398940620725,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 5.454545454545454,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 2048.0,
+    "reward": -0.9466969947031036
+  },
+  {
+    "epoch": 120,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 86.26105835687423,
+    "full_total_delay_ms": 98.2678535399813,
+    "tx_delay_ms": 16.261058356874212,
+    "uplink_delay_ms": 12.114794374277695,
+    "downlink_delay_ms": 16.153059165703596,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -0.982678535399813
+  },
+  {
+    "epoch": 121,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 106.83197501437492,
+    "full_total_delay_ms": 133.66395002874984,
+    "tx_delay_ms": 26.83197501437492,
+    "uplink_delay_ms": 26.83197501437492,
+    "downlink_delay_ms": 26.83197501437492,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "mean_l1": 1.0909090909090908,
+    "mean_l2": 1.0909090909090908,
+    "mean_upload_bytes": 14522.181818181818,
+    "mean_downlink_bytes": 14522.181818181818,
+    "reward": -1.3366395002874982
+  },
+  {
+    "epoch": 122,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 87.39003167909954,
+    "full_total_delay_ms": 94.58104632050288,
+    "tx_delay_ms": 12.390031679099518,
+    "uplink_delay_ms": 10.534734137358374,
+    "downlink_delay_ms": 14.046312183144497,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.9458104632050287
+  },
+  {
+    "epoch": 123,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 121.49299297423177,
+    "full_total_delay_ms": 190.1503169398741,
+    "tx_delay_ms": 51.49299297423177,
+    "uplink_delay_ms": 51.49299297423177,
+    "downlink_delay_ms": 68.65732396564235,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.1111111111111112,
+    "mean_l2": 1.5555555555555556,
+    "mean_upload_bytes": 14563.555555555555,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.901503169398741
+  },
+  {
+    "epoch": 124,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 87.92333380287562,
+    "full_total_delay_ms": 108.6074529960314,
+    "tx_delay_ms": 17.92333380287562,
+    "uplink_delay_ms": 16.546051284013455,
+    "downlink_delay_ms": 22.061401712017936,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.086074529960314
+  },
+  {
+    "epoch": 125,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 98.26674722829856,
+    "full_total_delay_ms": 122.6224101993633,
+    "tx_delay_ms": 18.266747228298556,
+    "uplink_delay_ms": 18.266747228298556,
+    "downlink_delay_ms": 24.35566297106474,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.9090909090909091,
+    "mean_l2": 1.4545454545454546,
+    "mean_upload_bytes": 14149.818181818182,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.226224101993633
+  },
+  {
+    "epoch": 126,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 92.78977988612603,
+    "full_total_delay_ms": 123.17615306762737,
+    "tx_delay_ms": 22.78977988612601,
+    "uplink_delay_ms": 22.78977988612601,
+    "downlink_delay_ms": 30.386373181501348,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.2317615306762737
+  },
+  {
+    "epoch": 127,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 102.80922199995656,
+    "full_total_delay_ms": 108.5115274999457,
+    "tx_delay_ms": 22.80922199995657,
+    "uplink_delay_ms": 22.80922199995657,
+    "downlink_delay_ms": 5.7023054999891425,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 0.5454545454545454,
+    "mean_l2": 4.909090909090909,
+    "mean_upload_bytes": 14522.181818181818,
+    "mean_downlink_bytes": 3165.090909090909,
+    "reward": -1.085115274999457
+  },
+  {
+    "epoch": 128,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 93.55458942817575,
+    "full_total_delay_ms": 107.85492164369981,
+    "tx_delay_ms": 18.554589428175746,
+    "uplink_delay_ms": 14.080680704442774,
+    "downlink_delay_ms": 18.77424093925703,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 3.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.078549216436998
+  },
+  {
+    "epoch": 129,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 134.30043646733233,
+    "full_total_delay_ms": 213.36768509044208,
+    "tx_delay_ms": 59.30043646733232,
+    "uplink_delay_ms": 59.30043646733232,
+    "downlink_delay_ms": 79.06724862310975,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 3.1818181818181817,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -2.0
+  },
+  {
+    "epoch": 130,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 87.26700160787945,
+    "full_total_delay_ms": 100.11088877249658,
+    "tx_delay_ms": 12.267001607879447,
+    "uplink_delay_ms": 12.904666616784244,
+    "downlink_delay_ms": 17.206222155712325,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -1.0011088877249656
+  },
+  {
+    "epoch": 131,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 141.62090416642917,
+    "full_total_delay_ms": 149.94851718723282,
+    "tx_delay_ms": 66.62090416642916,
+    "uplink_delay_ms": 66.62090416642916,
+    "downlink_delay_ms": 8.327613020803645,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "mean_l1": 1.0,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 7168.0,
+    "reward": -1.499485171872328
+  },
+  {
+    "epoch": 132,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 94.33883065624937,
+    "full_total_delay_ms": 120.1239381979152,
+    "tx_delay_ms": 19.338830656249364,
+    "uplink_delay_ms": 19.338830656249364,
+    "downlink_delay_ms": 25.78510754166582,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.2012393819791518
+  },
+  {
+    "epoch": 133,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 93.52940768383051,
+    "full_total_delay_ms": 111.84740685206798,
+    "tx_delay_ms": 13.529407683830508,
+    "uplink_delay_ms": 15.791745793743418,
+    "downlink_delay_ms": 21.05566105832456,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        4,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 2.1818181818181817,
+    "mean_l2": 3.1818181818181817,
+    "mean_upload_bytes": 7819.636363636364,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -1.1184740685206798
+  },
+  {
+    "epoch": 134,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 97.83181445643692,
+    "full_total_delay_ms": 104.78976807054615,
+    "tx_delay_ms": 27.831814456436913,
+    "uplink_delay_ms": 27.831814456436913,
+    "downlink_delay_ms": 6.957953614109228,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.0478976807054614
+  },
+  {
+    "epoch": 135,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 111.78017229082913,
+    "full_total_delay_ms": 160.8204020119346,
+    "tx_delay_ms": 36.780172290829114,
+    "uplink_delay_ms": 36.780172290829114,
+    "downlink_delay_ms": 49.040229721105476,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.608204020119346
+  },
+  {
+    "epoch": 136,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 96.77363858000797,
+    "full_total_delay_ms": 118.54727716001592,
+    "tx_delay_ms": 21.77363858000795,
+    "uplink_delay_ms": 21.77363858000795,
+    "downlink_delay_ms": 21.77363858000795,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.1111111111111112,
+    "mean_l2": 1.5555555555555556,
+    "mean_upload_bytes": 14563.555555555555,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.1854727716001592
+  },
+  {
+    "epoch": 137,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 118.96832736742995,
+    "full_total_delay_ms": 140.57989105263616,
+    "tx_delay_ms": 38.96832736742994,
+    "uplink_delay_ms": 28.10566759398692,
+    "downlink_delay_ms": 37.47422345864922,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0909090909090908,
+    "mean_l2": 3.727272727272727,
+    "mean_upload_bytes": 14522.181818181818,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -1.4057989105263615
+  },
+  {
+    "epoch": 138,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 97.03206526503418,
+    "full_total_delay_ms": 126.40815228507974,
+    "tx_delay_ms": 22.032065265034166,
+    "uplink_delay_ms": 22.032065265034166,
+    "downlink_delay_ms": 29.37608702004555,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.2640815228507973
+  },
+  {
+    "epoch": 139,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 95.2371548136725,
+    "full_total_delay_ms": 112.37506404108795,
+    "tx_delay_ms": 15.237154813672506,
+    "uplink_delay_ms": 16.017884589037685,
+    "downlink_delay_ms": 21.35717945205025,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 3.1818181818181817,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 8564.363636363636,
+    "reward": -1.1237506404108795
+  },
+  {
+    "epoch": 140,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 84.58383343056495,
+    "full_total_delay_ms": 101.03876586003287,
+    "tx_delay_ms": 9.58383343056494,
+    "uplink_delay_ms": 13.302328225728365,
+    "downlink_delay_ms": 17.736437634304487,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -1.0103876586003286
+  },
+  {
+    "epoch": 141,
+    "n_clients": 8,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 101.37358111800793,
+    "full_total_delay_ms": 109.21697639750991,
+    "tx_delay_ms": 31.373581118007927,
+    "uplink_delay_ms": 31.373581118007927,
+    "downlink_delay_ms": 7.843395279501982,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      4,
+      4
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.092169763975099
+  },
+  {
+    "epoch": 142,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 101.546464051761,
+    "full_total_delay_ms": 105.02511139225588,
+    "tx_delay_ms": 26.546464051760992,
+    "uplink_delay_ms": 15.01076202525252,
+    "downlink_delay_ms": 20.01434936700336,
+    "comp_delay_ms": 70.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.1111111111111112,
+    "mean_l2": 3.7777777777777777,
+    "mean_upload_bytes": 14563.555555555555,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -1.0502511139225588
+  },
+  {
+    "epoch": 143,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 99.46929000652835,
+    "full_total_delay_ms": 132.0950100152328,
+    "tx_delay_ms": 24.469290006528336,
+    "uplink_delay_ms": 24.469290006528336,
+    "downlink_delay_ms": 32.62572000870444,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 3.0,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 9216.0,
+    "reward": -1.3209501001523278
+  },
+  {
+    "epoch": 144,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 100.85901875034206,
+    "full_total_delay_ms": 108.19824037445261,
+    "tx_delay_ms": 25.859018750342056,
+    "uplink_delay_ms": 16.5991201872263,
+    "downlink_delay_ms": 16.5991201872263,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "mean_l1": 1.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 10240.0,
+    "mean_downlink_bytes": 7168.0,
+    "reward": -1.081982403744526
+  },
+  {
+    "epoch": 145,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 106.92225819373773,
+    "full_total_delay_ms": 133.84451638747547,
+    "tx_delay_ms": 26.92225819373773,
+    "uplink_delay_ms": 26.92225819373773,
+    "downlink_delay_ms": 26.92225819373773,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "mean_l1": 1.0909090909090908,
+    "mean_l2": 3.8181818181818183,
+    "mean_upload_bytes": 14522.181818181818,
+    "mean_downlink_bytes": 9867.636363636364,
+    "reward": -1.3384451638747545
+  },
+  {
+    "epoch": 146,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 155.7326034631084,
+    "full_total_delay_ms": 231.4652069262168,
+    "tx_delay_ms": 75.73260346310839,
+    "uplink_delay_ms": 75.73260346310839,
+    "downlink_delay_ms": 75.73260346310839,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.0909090909090908,
+    "mean_l2": 1.5454545454545454,
+    "mean_upload_bytes": 14522.181818181818,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -2.0
+  },
+  {
+    "epoch": 147,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 111.86561813757554,
+    "full_total_delay_ms": 154.35310898767622,
+    "tx_delay_ms": 31.86561813757553,
+    "uplink_delay_ms": 31.86561813757553,
+    "downlink_delay_ms": 42.48749085010071,
+    "comp_delay_ms": 80.0,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      5,
+      6
+    ],
+    "mig_splits": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.9090909090909091,
+    "mean_l2": 1.4545454545454546,
+    "mean_upload_bytes": 14149.818181818182,
+    "mean_downlink_bytes": 16384.0,
+    "reward": -1.5435310898767622
+  },
+  {
+    "epoch": 148,
+    "n_clients": 9,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 92.75578979139188,
+    "full_total_delay_ms": 97.19473723923984,
+    "tx_delay_ms": 17.75578979139186,
+    "uplink_delay_ms": 17.75578979139186,
+    "downlink_delay_ms": 4.438947447847965,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.11111111111111116,
+    "cluster_loads": [
+      5,
+      4
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 1.6666666666666667,
+    "mean_l2": 3.2222222222222223,
+    "mean_upload_bytes": 10012.444444444445,
+    "mean_downlink_bytes": 8419.555555555555,
+    "reward": -0.9719473723923984
+  },
+  {
+    "epoch": 149,
+    "n_clients": 11,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 96.96111430389372,
+    "full_total_delay_ms": 118.92222860778742,
+    "tx_delay_ms": 21.96111430389371,
+    "uplink_delay_ms": 21.96111430389371,
+    "downlink_delay_ms": 21.96111430389371,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.09090909090909088,
+    "cluster_loads": [
+      6,
+      5
+    ],
+    "mig_splits": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "mean_l1": 1.6363636363636365,
+    "mean_l2": 2.727272727272727,
+    "mean_upload_bytes": 10053.818181818182,
+    "mean_downlink_bytes": 6702.545454545455,
+    "reward": -1.189222286077874
+  },
+  {
+    "epoch": 150,
+    "n_clients": 10,
+    "n_migs": 2,
+    "bandwidth_mhz": 20.0,
+    "total_delay_ms": 103.47838671000628,
+    "full_total_delay_ms": 110.59798338750784,
+    "tx_delay_ms": 28.47838671000627,
+    "uplink_delay_ms": 28.47838671000627,
+    "downlink_delay_ms": 7.119596677501567,
+    "comp_delay_ms": 75.00000000000001,
+    "conflict_rate": 0.0,
+    "load_imbalance": 0.0,
+    "cluster_loads": [
+      5,
+      5
+    ],
+    "mig_splits": [
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "mean_l1": 0.5,
+    "mean_l2": 2.5,
+    "mean_upload_bytes": 14336.0,
+    "mean_downlink_bytes": 10240.0,
+    "reward": -1.1059798338750784
+  }
+]
